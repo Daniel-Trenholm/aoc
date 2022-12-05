@@ -2,7 +2,6 @@ def findSameLetterValue(halfOne, halfTwo):
     for firstHalfItem in halfOne:
         for secondHalfItem in halfTwo:
             if firstHalfItem == secondHalfItem:
-                print(firstHalfItem)
                 if firstHalfItem.isupper():
                     return ord(firstHalfItem) - 38
                 elif firstHalfItem.islower():
